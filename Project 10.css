@@ -1,0 +1,112 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{
+moz-box-sizing: border-box;webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus;active(outline: none;)
+a:focus,a;active(outline: none;)
+nav,footer,header,aside(display: block;)
+html,body{height: 100%;width: 100%;font-size: 100%;line-height: 1;font-size: 14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button:-mz-focus-inner {padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+/*--------------------*/
+
+body{
+	padding: 30px;
+}
+
+.block:hover{
+	background-color: rgba(40, 212, 189, 0.651);
+}
+
+.block {
+	margin: 0 0 30px 0;
+}
+.block p{
+	font-size: 18px;
+	line-height: 24px;
+	margin: 0 0 20px 0;
+}
+
+.link {
+	color: yellow;
+}
+
+.link:visited{
+	color: rgb(4, 0, 255);
+}
+
+.link:hover{
+	color: rgb(187, 255, 0);
+	text-transform: lowercase;
+}
+
+.link:active {
+	color: rgb(53, 224, 31);
+}
+
+.block_thn:active {
+	color: rgb(101, 240, 147);
+	background-color: rgba(15, 174, 223, 0.603);
+	text-transform: uppercase;
+}
+.text_input:hover{
+	background-color: rgba(101, 240, 147, 0.8);
+}
+.text_input {
+	border: 1px solid #666;
+	height: 50px;
+	padding: 5px 15px;
+	font-size: 18px;
+	width: 300px;
+	margin: 0px 0px 10px 0px;
+	background-color: #fff;
+}
+.text_input:focus{
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+}
+.textbutton{
+	display: block;
+	width: 300px;
+	height: 50px;
+	background-color: #666;
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 0 0 30px 0;
+}
+.textbutton:hover{
+	background-color: #333;
+	color: yellow;
+}
+.textbutton:active{
+	background-color: #eee;
+}
+
+.list {}
+.list li{
+	font-size: 18px;
+	margin: 0 0 15px 0;
+}
+.list li:first-child{
+	color: green;
+}
+.list li:last-child{
+	color: red;
+}
+
+.list li:nth-child(even){
+	color: blue;
+	text-decoration: underline;
+	font-family: arial;
+}
+
+.list li:hover {
+	text-transform: uppercase;
+	color: lime;
+}
